@@ -33,3 +33,11 @@ main {
     background: url(/imagens/frame-iphone-red.png) no-repeat;
 }
 
+#screen {
+    position: relative;
+    top: 67px;
+    left: 19px;
+    width: 223px;
+    height: 396px;
+}
+
