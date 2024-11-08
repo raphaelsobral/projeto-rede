@@ -41,3 +41,14 @@ main {
     height: 396px;
 }
 
+#socials a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+#socials img {
+    border-radius: 50%;
+    width: 70px;
+}
+
