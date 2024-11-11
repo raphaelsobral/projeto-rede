@@ -41,14 +41,22 @@ main {
     height: 396px;
 }
 
-#socials a {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
+#socials {
+    text-align: right;
 }
 
 #socials img {
+    margin: 10px;
+    box-sizing: border-box;
     border-radius: 50%;
     width: 70px;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.549);
+}
+
+#socials img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.693);
+    transform: translate(-3px, -3px);
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.549);
+    transition-duration: 0.2s;
 }
 
