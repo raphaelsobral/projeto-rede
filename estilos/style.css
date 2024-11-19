@@ -61,3 +61,9 @@ main {
     transition-duration: 0.2s;
 }
 
+@media only screen and (max-width: 450px) {
+    #socials img {
+        max-width: 55px;
+    }
+}
+
